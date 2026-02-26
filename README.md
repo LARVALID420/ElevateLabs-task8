@@ -1,11 +1,11 @@
-# Task 8 – Rule-Based Chatbot 🤖
+# Task 8 – Rule-Based Chatbot 
 
 A simple **rule-based chatbot** built with Python using `if-elif-else` control flow and input/output loops.
 
-## 📌 Objective
+##  Objective
 Build a chatbot that responds to user input using pattern matching — no machine learning required.
 
-## 🚀 Features
+## Features
 - Greetings & farewells
 - Identity questions ("Who are you?")
 - Real-time **date & time** retrieval
@@ -18,7 +18,7 @@ Build a chatbot that responds to user input using pattern matching — no machin
 - **Language**: Python 3
 - **Libraries**: Built-in only (`datetime`, `random`, `re`)
 
-## ▶️ How to Run
+##  How to Run
 
 ```bash
 python chatbot.py
@@ -42,19 +42,19 @@ You: bye
 ChatBot: Goodbye! It was nice chatting with you. 👋
 ```
 
-## 🔑 Key Concepts
+##  Key Concepts
 - **Control Flow** – if-elif-else chains for intent matching
 - **Loops** – `while True` loop with exit condition
 - **Input Handling** – `input()` with `.lower().strip()` normalization
 - **String Matching** – `in` operator and exact comparisons
 
-## ⚠️ Limitations of Rule-Based Bots
+##  Limitations of Rule-Based Bots
 - Can't understand **context** or multi-turn conversations
 - Fails on **typos** or unexpected phrasing
 - Requires manually writing every rule
 - Doesn't **learn** from interactions
 
-## 🔮 How This Could Evolve into an ML Bot
+##  How This Could Evolve into an ML Bot
 - Use **NLP libraries** (NLTK, spaCy) for tokenization
 - Train an **intent classifier** (e.g., with scikit-learn or TensorFlow)
 - Add **entity extraction** for dynamic responses
